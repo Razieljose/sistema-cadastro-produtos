@@ -31,7 +31,7 @@ public class Application {
         }
         System.out.println("Caso deseje cadastrar mais algum produto, digite 1." +
                 " Para listar novos produtos, digite 2. " +
-                " Para finalizar o programa, digite 3: ");
+                "Para finalizar o programa, digite 3: ");
         int pergunta = sc.nextInt();
         if (pergunta == 1){
             System.out.println("Quantos produtos você deseja cadastrar?  ");
